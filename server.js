@@ -11,11 +11,7 @@ app.use(express.static("public"));
 app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
-app.get("/", function (req,res) {
-    res.render("index");
-})
 var routes = require("./controllers/burgers_controllers.js");
-
 app.use(routes);
 
 app.listen(PORT, function () {
