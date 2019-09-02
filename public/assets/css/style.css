@@ -17,3 +17,35 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+.jumbotron{
+  background-image: url("./images/bb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 5px solid black;
+}
+
+body{
+  background-image: url("./images/bob.jpg");
+  background-size: cover;
+  background-repeat: none;
+}
+
+#search-bar{
+  text-align: center;
+  color: rgb(150, 3, 3);
+}
+
+.foo{
+  background: rgba(0, 0, 0, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.bod{
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  
+  
+}
